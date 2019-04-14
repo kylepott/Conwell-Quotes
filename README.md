@@ -12,7 +12,7 @@ Upload the plugin to Wordpress, use netcat to open a listener on your attack mac
 # Note
 Some hosts, like Bluehost, have their WordPress accounts on non-dedicated IPs which means they have nearly all ports blocked.  You may not be able to use the malicious shell in error.php.  However, the legitimate functionality in Conwell Quotes will still work and the user will not receive any error message.
 
-When uploading the plugin, WordPress does not have any malware detection and so the plugin will install and activate as usual.  To get access to the reverse shell, the plugin does not need to be activated, it simply needs to be installed.  Yet another good reason to delete out any unsued WordPress plugins.
+When uploading the plugin, WordPress does not have any malware detection and so the plugin will install and activate as usual.  To get access to the reverse shell, the plugin does not need to be activated, it simply needs to be installed.  Yet another good reason to delete out any unused WordPress plugins.
 
 # Used with Spear Phishing
 Subject: Great book.
