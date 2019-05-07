@@ -1,5 +1,5 @@
 # Conwell-Quotes
-A malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality - used for offensive security purposes
+A malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality - used for legal and ethical offensive security purposes.  
 
 # Purpose
 Modeled after the Hello Dolly plugin, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell's Acres of Diamonds (a great read BTW).  It also uploads an error.php backdoor that can be used to open a reverse TCP shell.  The reverse shell code was mostly written by Pen Test Monkey.  The print lines have been either commented out, suppressed, or slightly modified to avoid detection.
