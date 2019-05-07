@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Conwell_Quotes
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Conwell Quotes
-Plugin URI: https://technicalagain.com/conwell
+Plugin URI: https://technicalagain.com/2019/05/07/conwell-quotes-v1-1/
 Description: Russell Conwell was an American minister, orator, philanthropist, lawyer, and writer.  When activated you will randomly see a quote from <cite>Acres of Diamonds</cite>, Conwell's seminal work, in the upper right of your admin screen on every page.
 Author: Kyle Pott
-Version: 1.0
+Version: 1.1
 Author URI: https://technicalagain.com
 */
 

